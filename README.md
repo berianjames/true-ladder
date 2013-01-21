@@ -4,14 +4,14 @@ A balanced Premier League table
 A score ladder is the most crucial data summary in any professional sport. For many of us, it is the only data presentation we will look at for a sport, and we will check it frequently. 
 
 However, in round-robin sports, where each team will play every other team a fixed number of times during the competition, the score ladder
-at a given moment suffers from the deficiency that some teams may have had their tougher games behind them (and have a lower current score), while others may have games against tougher competition ahead.
+at a given moment suffers from the bias that some teams may have had their tougher games behind them (and have a lower current score), while others may have games against tougher competition ahead.
 
 This project builds a reweighted ladder that is free from this bias, giving the most accurate current depiction of the state of the competition.
 
 Impact
 -------
 
-Here's a example: have a look at the [current English Premier League table](http://www.premierleague.com/en-gb/matchday/league-table.html). Though it isn't obvious, some teams are acutally spuriously higher than they should, by virtue of the order in which they have been playing their games. *But which ones?*
+Here's a example: have a look at the [current English Premier League table](http://www.premierleague.com/en-gb/matchday/league-table.html). Though it isn't obvious, some teams are acutally falsely higher than they should be, by virtue of the order in which they have been playing their games. *But which ones?*
 
 For the table as at January 21, 2013:
 
